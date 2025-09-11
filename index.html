@@ -42,6 +42,36 @@
         </div>
     </div>
 </header>
+<div aria-label="mobile navigation" class="mobile-navigation">
+    <label aria-label="open-close mobile navigation menu" for="menu-toggler-id">
+        <svg aria-label="burger icon" class="mobile-navigation__burger">
+            <use href="assets/sprites.svg#burger-icon"></use>
+        </svg>
+    </label>
+    <input class="mobile-navigation__toggler" id="menu-toggler-id" name="toggler" type="checkbox">
+
+    <nav aria-label="mobile navigation menu" class="mobile-navigation__menu">
+        <ul aria-label="mobile navigation list" class="mobile-navigation__list">
+            <li class="mobile-navigation__item">
+                <a class="mobile-navigation__link" href="#about-id">Why Alivio</a>
+            </li>
+            <li class="mobile-navigation__item">
+                <a class="mobile-navigation__link" href="#success-id">Solutions</a>
+            </li>
+            <li class="mobile-navigation__item">
+                <a class="mobile-navigation__link" href="#product-id">Community</a>
+            </li>
+            <li class="mobile-navigation__item">
+                <a class="mobile-navigation__link" href="#pricing-id">Pricing</a>
+            </li>
+        </ul>
+        <label aria-label="close mobile navigation menu" class="mobile-navigation__close" for="menu-toggler-id">
+            <svg aria-label="cross icon" class="mobile-navigation__cross">
+                <use href="assets/sprites.svg#cross-icon"></use>
+            </svg>
+        </label>
+    </nav>
+</div>
 <main>
     <section aria-label="hero section" class="hero" id="hero-id">
         <div class="container">
